@@ -1,0 +1,17 @@
+{
+  "name": "klypza",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-08-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "dist/client",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "klypza-db",
+      "database_id": "PASTE_YOUR_DATABASE_ID_HERE"
+    }
+  ]
+}
