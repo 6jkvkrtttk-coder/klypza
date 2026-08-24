@@ -1,0 +1,6 @@
+import type { Metadata } from "next";
+import { MarketingShell, PageHero } from "@/app/components/marketing-shell";
+
+export const metadata: Metadata = { title: "Safety — Klypza", description: "Klypza rules for consent-aware and clearly labeled AI media." };
+
+export default function SafetyPage() { return <MarketingShell><PageHero eyebrow="SAFETY" title="Create boldly. Represent people honestly." lead="Klypza is designed for creative expression without impersonation, fraud or non-consensual media."/><section className="inventory-grid"><article><span>01</span><h2>Permission first</h2><p>Only use your own likeness or media you are explicitly authorized to use. Public availability does not equal consent.</p></article><article><span>02</span><h2>No celebrity clones</h2><p>Celebrity, public-figure, political impersonation and deceptive real-person presets are prohibited.</p></article><article><span>03</span><h2>Provenance</h2><p>Authorized face composites carry an AI-assisted label so they are not passed off as authentic recordings.</p></article></section><section className="policy-band"><h2>Not allowed</h2><p>Fraud, scams, harassment, non-consensual intimate media, sexual content involving minors, deceptive political media, attempts to bypass safeguards, or content that violates another person’s rights.</p></section></MarketingShell>; }
